@@ -21,4 +21,5 @@ urlpatterns = [
    
     path('page-not-found/',views.page_not_found,name='facultypage-not-found'),
     path('logout/',views.logout,name='facultylogout'),
+    path('log/',views.logout,name='f'),
 ]
